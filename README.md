@@ -20,3 +20,8 @@ On Windows
 
 Just run the resulting binary directly. [readable.cc](Script/readable.cc) is the
 same code except in a more readable format.
+
+Tested on Windows with Visual Studio 2017 (use the 64 bit compiler), on Linux with
+gcc version 7.2.1 and on MacOS with Apple LLVM version 8.1.0. Due to the nature
+of this project, it's possible that other operating systems or compilers may not
+work, especially if they use an incompatible calling convention.
